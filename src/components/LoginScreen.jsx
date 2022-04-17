@@ -2,6 +2,9 @@ import React from "react";
 import './LoginScreen.css'
 
 const LoginScreen = () => {
+    const signUp = () => {
+        window.location.href = "/register";
+    }
     return (
         <div className="register-page">
 
@@ -28,7 +31,7 @@ const LoginScreen = () => {
                 <div className="remember-area">
                     <input
                         style={{
-                            marginTop: "5px",
+                            marginTop: "15px",
                             marginLeft: "5px",
                             marginRight: "5px",
                             cursor: "pointer",
@@ -36,14 +39,12 @@ const LoginScreen = () => {
                         type="checkbox"
                     />
                     <p>Remember me</p>
-                    <p style={{ marginLeft: "17%", cursor: "pointer" }} /*onClick={}*/>
+                    <p style={{ marginLeft: "17%", cursor: "pointer" }} onClick= { signUp }/*onClick={}*/>
                         Sign Up Now?
                     </p>
                 </div>
             </div>
-            <div className="footer">
-                <div>Hel</div>
-            </div>
+            
         </div>
     )
 }

@@ -81,7 +81,7 @@
   width: 270px;
   border-radius: 5px;
   color: white;
-  caret-color: white;
+  caret-color: auto;
   padding-left: 10px;
   outline: none;
 }
@@ -92,7 +92,7 @@
   width: 270px;
   border-radius: 5px;
   color: white;
-  caret-color: white;
+  caret-color: auto;
   padding-left: 10px;
   outline: none;
 }
