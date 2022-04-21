@@ -5,12 +5,12 @@ import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 import LoginScreen from './components/LoginScreen';
 import Registration from './components/Registration';
+import AppRouter from './AppRouter';
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <LoginScreen/>
-      <Registration/>
+      <AppRouter/>
   </React.StrictMode>,
   document.getElementById('root')
 );

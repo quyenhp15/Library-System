@@ -8,6 +8,7 @@ const Registration = () => {
     return (
         
     <div className="register-page">
+      
       <div className="header-bar">
         
         
@@ -25,7 +26,7 @@ const Registration = () => {
         
           
           <p style={{ marginTop: "6%", marginLeft: "40%", cursor: "pointer" }} onClick={signIn}>
-            Sign Up Now?
+            Sign In Now?
           </p>
         </div>
         

@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3% 1%;
+  padding: 3% 2%;
   flex: 1;
   text-align: center;
 }
@@ -80,7 +80,7 @@
   height: 40px;
   width: 270px;
   border-radius: 5px;
-  color: white;
+  color: rgb(255, 255, 255);
   caret-color: auto;
   padding-left: 10px;
   outline: none;
@@ -91,8 +91,8 @@
   height: 40px;
   width: 270px;
   border-radius: 5px;
-  color: white;
-  caret-color: auto;
+  color: rgb(255, 255, 255);
+  caret-color: none;
   padding-left: 10px;
   outline: none;
 }

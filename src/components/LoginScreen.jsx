@@ -1,13 +1,15 @@
 import React from "react";
-import './LoginScreen.css'
+import "./LoginScreen.css"
 
 const LoginScreen = () => {
     const signUp = () => {
         window.location.href = "/register";
     }
+    
     return (
         <div className="register-page">
 
+           
             <div className="header-title">
                 <ul>
                     <li><a href="#">HOME</a></li>
@@ -17,9 +19,7 @@ const LoginScreen = () => {
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
-            <div className="header-bar">
-
-            </div>
+            
             <div className="form__sign-up">
                 <div className="signIn__title">
                     <h1>Sign In</h1>
@@ -31,7 +31,7 @@ const LoginScreen = () => {
                 <div className="remember-area">
                     <input
                         style={{
-                            marginTop: "15px",
+                            marginTop: "5px",
                             marginLeft: "5px",
                             marginRight: "5px",
                             cursor: "pointer",
@@ -46,6 +46,7 @@ const LoginScreen = () => {
             </div>
             
         </div>
+        /*<Chatbot messageParser={MessageParser} config={config} actionProvider={ActionProvider} /></> */
     )
 }
 
